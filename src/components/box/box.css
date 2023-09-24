@@ -1,0 +1,36 @@
+
+
+.box {
+    width: 250px;
+    height: auto;
+    margin: 10px;
+    border-radius: 3px;
+    padding: 10px;
+    /* box-shadow: 2px 2px 2px lightgrey; */
+    border: 1px solid lightgrey;
+}
+
+.boximage {
+    width: 100%;
+    border-radius: 2px;
+    height: 270px;
+}
+
+button {
+    width: 100%;
+    border-radius: 3px;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+button span {
+    margin-right: 25px;
+    font-size: 16px;
+}
+
+button:hover {
+    color: white;
+    background-color: black;
+    transition: 0.5s ease;
+}
